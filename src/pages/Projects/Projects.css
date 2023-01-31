@@ -1,0 +1,30 @@
+.projects-section {
+  width: 100%;
+  min-width: 100vh;
+  background-color: white;
+}
+
+.project-list {
+  display: block;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.title > span {
+  display: block;
+  font-weight: 2vh;
+}
+
+.title > span:nth-child(1) {
+  color: #b2434c;
+  font-size: 2vh;
+  font-weight: 600;
+}
+.title > span:nth-child(2) {
+  font-size: 3vh;
+  font-weight: 600;
+}

@@ -1,0 +1,115 @@
+.project {
+  margin-left: auto;
+  margin-right: auto;
+  width: 74%;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  gap: 63%;
+  margin-bottom: 20vh;
+}
+
+hr {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border-color: rgba(223, 223, 223, 0.432);
+}
+
+.Skilltags {
+  display: flex;
+  gap: 2rem;
+  margin-left: -2.5rem;
+  margin-top: 0.4rem;
+}
+
+.Skilltags > li:first-child {
+  list-style: none;
+}
+
+.project-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.image-container {
+  position: relative;
+  width: 33rem;
+}
+
+.image-container > img {
+  width: 100%;
+}
+
+.image-container > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s;
+  border-radius: 0.5vh;
+}
+
+.image-container > div:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.project-right {
+  width: 30rem;
+}
+
+.project-right-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.project-right-title > h2 {
+  font-weight: 400;
+}
+
+.project-right-title > :nth-child(2) {
+  color: #b2434c;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.project-right-text {
+  margin-top: 2rem;
+}
+
+.project-right-click {
+  margin-top: 6.6rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5vh;
+}
+
+.project-right-click > div:nth-child(1) {
+  cursor: pointer;
+  background-color: #b2434c;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.project-right-click > div:nth-child(1):hover {
+  background-color: #ffffff;
+  color: #b2434c;
+}
+
+.project-right-click > div:nth-child(2) {
+  cursor: pointer;
+  color: #b2434c;
+}
