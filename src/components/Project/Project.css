@@ -73,12 +73,13 @@ hr {
   margin-bottom: 1rem;
 }
 
-.project-right-title > h2 {
-  font-weight: 400;
+.project-right-title > :nth-child(1) {
+  font-weight: 600;
 }
 
 .project-right-title > :nth-child(2) {
   color: #b2434c;
+  font-weight: 400;
   font-size: 1rem;
   cursor: pointer;
 }

@@ -1,7 +1,7 @@
 [
   {
     "name": "Live Piano",
-    "description": "Live Piano is an Web application which makes it possible to play Piano with your friends or even a teacher no matter where you are.",
+    "description": "Live Piano is a Web application which makes it possible to play Piano with your friends, no matter where you are. It also provide's MIDI support",
     "website": "https://livepiano.laskevic.com/",
     "github": "https://github.com/aLaskevic/Live-Piano",
     "image": "Livepiano.png",
