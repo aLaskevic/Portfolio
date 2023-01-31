@@ -5,7 +5,6 @@ import data from "./Projects.json";
 import "./Projects.css";
 
 export default function project() {
-  const [counter, setCounter] = useState(1);
   return (
     <div className="projects-section">
       <div className="title">
@@ -14,9 +13,7 @@ export default function project() {
       </div>
       <div className="project-list">
         {data.map((project, index) => {
-          return (
-            <Project index={index} project={{ counter, ...project }}></Project>
-          );
+          return <Project index={index} project={{ ...project }}></Project>;
         })}
       </div>
     </div>

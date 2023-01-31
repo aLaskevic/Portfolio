@@ -80,9 +80,9 @@ export default function Home() {
             </div>
           </div>
           <div className="name">
-            <span className="primary-color">A</span>LEXANDER
+            <span>ALEXANDER</span>
             <br></br>
-            <span className="primary-color">L</span>ASKEVIC
+            <span>LASKEVIC</span>
           </div>
           <div className="profile-tags">
             <span>Fullstack Developer</span>

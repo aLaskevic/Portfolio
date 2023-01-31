@@ -11,8 +11,9 @@ main {
   cursor: pointer;
   text-align: center;
   font-size: 2vh;
-  color: #252525;
+  color: white;
   font-weight: 500;
+  transition: background-color 0.3s;
 }
 .resume:hover {
   background-color: #b4444d;
@@ -53,10 +54,10 @@ main {
 
 #button-primary {
   padding: 1.3vh;
-  background-color: #ed5561;
+  background-color: #434343;
   border-radius: 5vh;
-  font-weight: 500;
-  color: #252525;
+  font-weight: 400;
+  color: white;
   transition: 0.2s color, background-color 0.2s;
 }
 #button-primary:hover {
@@ -66,13 +67,14 @@ main {
   margin-left: 10vh;
   font-size: 2vh;
   font-weight: 400;
-  color: #ed5561;
+  color: white;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: transform 0.3s, color 0.3s;
 }
 
 .navigation-menu > .l:hover {
   transform: translateY(-0.5vh);
+  color: #fc5a68;
 }
 
 .navigation-logo {
@@ -105,7 +107,6 @@ main {
 .headline {
   display: flex;
   align-items: flex-start;
-  color: red;
   gap: 6vh;
   justify-content: space-between;
   margin-bottom: 2vh;
@@ -113,6 +114,7 @@ main {
 
 .headline-title {
   font-size: 2vh;
+  letter-spacing: 0.2rem;
   color: #9d9d9d;
 }
 
