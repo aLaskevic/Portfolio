@@ -6,6 +6,8 @@ main {
   margin-top: 3vh;
   background-color: #ed5561;
   padding: 1.5vh;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   border-radius: 4vh;
   width: 10vh;
   cursor: pointer;
@@ -13,7 +15,6 @@ main {
   font-size: 2vh;
   color: white;
   font-weight: 500;
-  transition: background-color 0.3s;
 }
 .resume:hover {
   background-color: #b4444d;
@@ -56,7 +57,8 @@ main {
   padding: 1.3vh;
   background-color: #434343;
   border-radius: 5vh;
-  font-weight: 400;
+  padding-left: 2vw;
+  padding-right: 2vw;
   color: white;
   transition: 0.2s color, background-color 0.2s;
 }
@@ -64,21 +66,24 @@ main {
   background-color: #b4444d;
 }
 .navigation-menu > li {
-  margin-left: 10vh;
+  margin-left: 7vw;
   font-size: 2vh;
   font-weight: 400;
   color: white;
   cursor: pointer;
-  transition: transform 0.3s, color 0.3s;
+  transition: transform 0.3s;
+}
+
+.navigation-menu > li:hover {
+  color: #ed5561;
 }
 
 .navigation-menu > .l:hover {
   transform: translateY(-0.5vh);
-  color: #fc5a68;
 }
 
 .navigation-logo {
-  width: 4vh;
+  width: 2vw;
   transition: 0.3s transform;
 }
 
@@ -89,10 +94,9 @@ main {
 main {
   display: flex;
   align-items: center;
-  gap: 15vh;
   width: 100%;
   margin-top: 10vh;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .avatar-rect {
   position: absolute;
@@ -107,6 +111,7 @@ main {
 .headline {
   display: flex;
   align-items: flex-start;
+  color: red;
   gap: 6vh;
   justify-content: space-between;
   margin-bottom: 2vh;
@@ -114,7 +119,6 @@ main {
 
 .headline-title {
   font-size: 2vh;
-  letter-spacing: 0.2rem;
   color: #9d9d9d;
 }
 

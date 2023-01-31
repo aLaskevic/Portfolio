@@ -67,11 +67,11 @@
 
 .skillset-section {
   padding-top: 12vh;
-  padding-left: 20%;
+  padding-left: 17%;
   padding-right: 20%;
 }
 
-.skillset-section > span {
+.skillset-section > div {
   color: white;
   font-size: 2.5vh;
   font-weight: 300;

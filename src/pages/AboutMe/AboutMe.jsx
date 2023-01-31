@@ -24,10 +24,10 @@ export default function AboutMe() {
         <span>inquisitive</span>
       </div>
       <div className="skillset-section">
-        <span>
+        <div>
           Here are a few <span className="bold">technologies</span> where I
           specialized myself in:
-        </span>
+        </div>
         <div className="skillset">
           <ul className="skillset-list">
             <li>Javascript (ES6+)</li>
