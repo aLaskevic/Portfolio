@@ -7,7 +7,7 @@ export default function Project(props) {
     <div className="project">
       <div className="project-title">
         <h1>{props.project.name}</h1>
-        <h1>01</h1>
+        <h1>{"0" + (props.index + 1)}</h1>
       </div>
       <div className="project-content">
         <div className="project-left">

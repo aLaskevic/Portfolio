@@ -13,8 +13,10 @@ export default function project() {
         <span>Latest Projects</span>
       </div>
       <div className="project-list">
-        {data.map((project) => {
-          return <Project project={{ counter, ...project }}></Project>;
+        {data.map((project, index) => {
+          return (
+            <Project index={index} project={{ counter, ...project }}></Project>
+          );
         })}
       </div>
     </div>

@@ -2,8 +2,8 @@
   {
     "name": "Live Piano",
     "description": "Live Piano is an Web application which makes it possible to play Piano with your friends or even a teacher no matter where you are.",
-    "website": "https://www.google.de",
-    "github": "https://www.google.de",
+    "website": "https://livepiano.laskevic.com/",
+    "github": "https://github.com/aLaskevic/Live-Piano",
     "image": "Livepiano.png",
     "technologies": ["React", "Websocket"]
   }
