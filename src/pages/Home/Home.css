@@ -29,17 +29,18 @@ main {
 .navigation {
   display: flex;
   justify-content: space-evenly;
-  gap: 15vh;
+  gap: 10vh;
   padding-top: 3%;
   align-items: center;
 }
 .navigation-menu {
   display: flex;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
 .left-section {
-  padding-bottom: 20vh;
+  padding-bottom: 25vh;
   animation: section-slide 1.2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -83,7 +84,7 @@ main {
 }
 
 .navigation-logo {
-  width: 3%;
+  width: 5vh;
   transition: 0.3s transform;
 }
 
@@ -96,7 +97,8 @@ main {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  justify-content: space-evenly;
+  gap: 5vw;
+  justify-content: center;
 }
 .avatar-rect {
   position: absolute;
@@ -111,7 +113,6 @@ main {
 .headline {
   display: flex;
   align-items: flex-start;
-  color: red;
   gap: 6vh;
   justify-content: space-between;
   margin-bottom: 2vh;
@@ -157,7 +158,7 @@ main {
 }
 
 .avatar-image {
-  padding-bottom: 20vh;
+  padding-bottom: 25vh;
   width: 40vh;
   z-index: 1;
 }
