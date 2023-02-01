@@ -104,7 +104,7 @@ export default function Home() {
             </span>
           </div>
           <div className="resume" onClick={() => window.open(resume)}>
-            Resume
+            Résumé
           </div>
         </div>
         <div className="avatar">
