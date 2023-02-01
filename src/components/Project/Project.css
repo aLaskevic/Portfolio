@@ -42,24 +42,27 @@ hr {
 
 .image-container {
   position: relative;
+  border-radius: 0.5vh;
   width: 33rem;
 }
 
 .image-container > img {
+  border-radius: 0.5vh;
   width: 100%;
+  height: 35vh;
 }
 
 .image-container > div {
   position: absolute;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s;
   border-radius: 0.5vh;
 }
 
 .image-container > div:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .project-right {
@@ -89,7 +92,7 @@ hr {
 }
 
 .project-right-click {
-  margin-top: 6.6rem;
+  margin-top: 5vh;
   display: flex;
   justify-content: left;
   align-items: center;

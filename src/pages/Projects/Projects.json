@@ -1,10 +1,18 @@
 [
   {
     "name": "Live Piano",
-    "description": "Live Piano is a Web application which makes it possible to play Piano with your friends, no matter where you are. It also provide's MIDI support",
+    "description": "Live Piano is a Web Application which I wrote, to create a simple and easy way to play Piano with your friends. The most important point in this project was to provide MIDI support to ensure that everyone is able to play on his own Piano!",
     "website": "https://livepiano.laskevic.com/",
     "github": "https://github.com/aLaskevic/Live-Piano",
     "image": "Livepiano.png",
     "technologies": ["React", "Websocket"]
+  },
+  {
+    "name": "Speed-Typer",
+    "description": "Speed-Typer is a small mini game as web application written in Angular. In Speed-Typer you have to type as fast as possbile the displayed letters. This project was there to get first touch with a Javascript Frameworks",
+    "website": "https://alaskevic.github.io/Speed-Typer/",
+    "github": "https://github.com/aLaskevic/Speed-Typer",
+    "image": "Speed_typer.png",
+    "technologies": ["Angular"]
   }
 ]

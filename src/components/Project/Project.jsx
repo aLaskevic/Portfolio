@@ -23,7 +23,7 @@ export default function Project(props) {
         </div>
         <div className="project-right">
           <div className="project-right-title">
-            <h2>What is {props.project.name}</h2>
+            <h2>What is {props.project.name}?</h2>
             <h2>Read more</h2>
           </div>
           <div className="project-right-text">{props.project.description}</div>
