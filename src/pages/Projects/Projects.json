@@ -5,7 +5,7 @@
     "website": "https://livepiano.laskevic.com/",
     "github": "https://github.com/aLaskevic/Live-Piano",
     "image": "Livepiano.png",
-    "technologies": ["React", "Websocket"]
+    "technologies": ["HTML", "CSS", "Javascript", "React", "Websocket"]
   },
   {
     "name": "Speed-Typer",
@@ -13,6 +13,6 @@
     "website": "https://alaskevic.github.io/Speed-Typer/",
     "github": "https://github.com/aLaskevic/Speed-Typer",
     "image": "Speed_typer.png",
-    "technologies": ["Angular"]
+    "technologies": ["HTML", "CSS", "Javascript", "Angular"]
   }
 ]
