@@ -43,7 +43,7 @@ hr {
 .image-container {
   position: relative;
   border-radius: 0.5vh;
-  width: 33rem;
+  width: 31vw;
 }
 
 .image-container > img {
