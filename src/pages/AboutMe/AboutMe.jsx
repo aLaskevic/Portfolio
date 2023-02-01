@@ -44,6 +44,8 @@ export default function AboutMe() {
         <span>Click Me!</span>
         <img src={chess} alt="chess" />
       </div>
+      <div className="circle"></div>
+      <div className="circle2"></div>
     </div>
   );
 }
