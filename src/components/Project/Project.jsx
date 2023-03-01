@@ -1,10 +1,18 @@
 import React from "react";
 import "./Project.css";
+import ReadMore from "../../pages/ReadMore/ReadMore";
+import { useState } from "react";
 
 export default function Project(props) {
-  console.log(props);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className="project">
+      <ReadMore
+        close={() => setIsModalOpen(false)}
+        project={props.project}
+        isModalOpen={isModalOpen}
+      ></ReadMore>
       <div className="project-title">
         <h1>{props.project.name}</h1>
         <h1>{"0" + (props.index + 1)}</h1>
@@ -12,7 +20,6 @@ export default function Project(props) {
       <div className="project-content">
         <div className="project-left">
           <div className="image-container">
-            <div></div>
             <img src={"/" + props.project.image}></img>
           </div>
           <ul className="Skilltags">
@@ -24,7 +31,11 @@ export default function Project(props) {
         <div className="project-right">
           <div className="project-right-title">
             <h2>What is {props.project.name}?</h2>
-            <h2>Read more</h2>
+            {props.project.readMore ? (
+              <h2 onClick={() => setIsModalOpen(true)}>Read more</h2>
+            ) : (
+              ""
+            )}
           </div>
           <div className="project-right-text">{props.project.description}</div>
           <div className="project-right-click">
@@ -45,7 +56,6 @@ export default function Project(props) {
           </div>
         </div>
       </div>
-      <hr></hr>
     </div>
   );
 }

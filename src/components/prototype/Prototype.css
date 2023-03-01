@@ -1,0 +1,45 @@
+.prototype {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8vw;
+  margin-bottom: 10vh;
+  background-color: #090909;
+  border-radius: 2vh;
+  padding: 10vh;
+}
+
+.prototype-image {
+  flex: 1;
+  width: 15vw;
+  border-radius: 1vh;
+}
+.prototype-content {
+  color: white;
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.prototype-content > div:nth-child(1) {
+  text-align: start;
+  font-weight: 600;
+  font-size: 2vh;
+  color: #b2434c;
+  margin-bottom: 1vh;
+}
+
+.prototype-content > div:nth-child(2) {
+  text-align: start;
+  line-height: 1.5;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 900px) {
+  .prototype-content,
+  .prototype-image {
+    flex: 100%;
+  }
+}

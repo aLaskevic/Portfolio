@@ -1,21 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo.svg";
 import linkedin from "../../assets/linkedin.svg";
 import github from "../../assets/github.svg";
 import gmail from "../../assets/gmail.svg";
-import avatar from "../../assets/avatar.svg";
+import abstract from "/Screen.svg";
 import resume from "/Laskevic_Alexander_Resume.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Typewriter } from "react-simple-typewriter";
 import "./Home.css";
 
 export default function Home() {
+  const [isShown, setIsShown] = useState(false);
   return (
     <div className="Home">
-      <div className="navigation">
-        <img className="navigation-logo" src={logo}></img>
-        <ul className="navigation-menu">
+      <nav>
+        <img src={logo}></img>
+        <ul>
           <li
-            className="l"
             onClick={() => {
               document
                 .querySelector(".Home")
@@ -35,7 +37,6 @@ export default function Home() {
             About
           </li>
           <li
-            className="l"
             onClick={() => {
               document
                 .querySelector(".contact")
@@ -55,12 +56,67 @@ export default function Home() {
             My Projects
           </li>
         </ul>
+      </nav>
+      <div
+        className="nav-mobile"
+        onClick={() =>
+          setIsShown((prev) => {
+            return !prev;
+          })
+        }
+      >
+        <FontAwesomeIcon icon={isShown ? faXmark : faBars} />
       </div>
-      <main>
-        <div className="left-section">
-          <div className="headline">
-            <div className="headline-title">HEY THERE 👋 I'AM</div>
-            <div className="headline-links">
+      <div className={"nav-mobile-screen" + (isShown ? " show" : " hide")}>
+        <ul>
+          <li
+            onClick={() => {
+              document
+                .querySelector(".Home")
+                .scrollIntoView({ behavior: "smooth" });
+              setIsShown(false);
+            }}
+          >
+            Home
+          </li>
+          <li
+            onClick={() => {
+              document
+                .querySelector(".about-me")
+                .scrollIntoView({ behavior: "smooth" });
+              setIsShown(false);
+            }}
+          >
+            About
+          </li>
+          <li
+            onClick={() => {
+              document
+                .querySelector(".contact")
+                .scrollIntoView({ behavior: "smooth" });
+              setIsShown(false);
+            }}
+          >
+            Contact
+          </li>
+          <li
+            onClick={() => {
+              document
+                .querySelector(".projects-section")
+                .scrollIntoView({ behavior: "smooth" });
+              setIsShown(false);
+            }}
+          >
+            My Projects
+          </li>
+        </ul>
+      </div>
+      <img className="nav-mobile-logo" src={logo}></img>
+      <div className="container">
+        <div className="home-informations">
+          <div className="first">
+            <span>HI THERE 👋, I’M</span>
+            <div>
               <img
                 src={linkedin}
                 onClick={() =>
@@ -79,39 +135,34 @@ export default function Home() {
               ></img>
             </div>
           </div>
-          <div className="name">
-            <span>ALEXANDER</span>
-            <br></br>
-            <span>LASKEVIC</span>
-          </div>
-          <div className="profile-tags">
-            <span>Fullstack Developer</span>
+          <div className="second">alex laskevic.</div>
+          <div className="third">
+            <span>FULLSTACK ‍💻</span>
             <span>•</span>
-            <span id="typed">
-              <Typewriter
-                words={[
-                  "Developer with passion",
-                  "Gaming Enthusiast",
-                  "Computer Science Student",
-                ]}
-                loop={false}
-                cursor
-                cursorStyle="|"
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={2000}
-              />
-            </span>
+            <Typewriter
+              words={[
+                "DEVELOPER WITH PASSION!",
+                "CREATIVE PROBLEM SOLVER!",
+                "COMPUTER SCIENCE STUDENT",
+              ]}
+              loop={false}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={2000}
+            />
+          </div>
+          <div className="fourth">
+            Full Stack Developer who focuses on writing clean, elegent and
+            efficent Code and also loves to design UI
           </div>
           <div className="resume" onClick={() => window.open(resume)}>
-            Résumé
+            Resume
           </div>
         </div>
-        <div className="avatar">
-          <img className="avatar-image" src={avatar}></img>
-          <div className="avatar-rect"></div>
-        </div>
-      </main>
+        <img src={abstract}></img>
+      </div>
     </div>
   );
 }

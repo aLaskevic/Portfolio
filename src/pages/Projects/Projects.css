@@ -1,7 +1,7 @@
 .projects-section {
   width: 100%;
-  min-width: 100vh;
-  background-color: white;
+  background-color: #000;
+  padding-bottom: 10%;
 }
 
 .project-list {
@@ -10,7 +10,8 @@
 
 .title {
   text-align: center;
-  margin-top: 25vh;
+  color: white;
+  padding-top: 25vh;
   margin-bottom: 25vh;
 }
 

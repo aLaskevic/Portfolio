@@ -1,15 +1,31 @@
 [
   {
     "name": "Live Piano",
-    "description": "Live Piano is a Web Application which I wrote, to create a simple and easy way to play Piano with your friends. The most important point in this project was to provide MIDI support to ensure that everyone is able to play on his own Piano!",
+    "description": "Live Piano is a Web Application that I implemented so Pianists around the world can play togheter. The user is able to create easy a lobby and invite his friends just with a code. I realized this project by implementing a self managing Lobby system with Websockets.",
     "website": "https://livepiano.laskevic.com/",
     "github": "https://github.com/aLaskevic/Live-Piano",
     "image": "Livepiano.png",
-    "technologies": ["HTML", "CSS", "Javascript", "React", "Websocket"]
+    "technologies": ["HTML", "CSS", "Javascript", "React", "Websocket"],
+    "readMore": {
+      "backgroundImage": "Livepiano_home.png",
+      "introduction": "Live Piano is a Web Application that I implemented so Pianists around the world can play togheter. The user is able to create easy a lobby and invite his friends just with a code. I realized this project by implementing a self managing Lobby system with Websockets.",
+      "descriptions": [
+        {
+          "image": "Livepiano.png",
+          "title": "The Userinterface",
+          "text": ""
+        },
+        {
+          "image": "Livepiano.png",
+          "title": "CASESTUDY",
+          "text": "Lm und sund soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und so"
+        }
+      ]
+    }
   },
   {
-    "name": "Speed-Typer",
-    "description": "Speed-Typer is a small mini game as web application written in Angular. In Speed-Typer you have to type as fast as possible the displayed random letters to break the Highscore. This project was there to get first touch with a Javascript Frameworks and first usage of cookies to store the score temporary",
+    "name": "Speded-Typer",
+    "description": "Speed-Typer is a small mini game as web application written in Angular. In Speed-Typer you have to type as fast as possible the displayed random letters to break the Highscore. This project was there to get first touch with a Javascript frameworks and first usage of cookies to store the score temporary",
     "website": "https://alaskevic.github.io/Speed-Typer/",
     "github": "https://github.com/aLaskevic/Speed-Typer",
     "image": "Speed_typer.png",

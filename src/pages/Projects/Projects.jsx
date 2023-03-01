@@ -13,7 +13,13 @@ export default function project() {
       </div>
       <div className="project-list">
         {data.map((project, index) => {
-          return <Project index={index} project={{ ...project }}></Project>;
+          return (
+            <Project
+              index={index}
+              project={{ ...project }}
+              last={index == data.length - 1 ? true : false}
+            ></Project>
+          );
         })}
       </div>
     </div>

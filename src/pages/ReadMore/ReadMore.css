@@ -1,0 +1,159 @@
+.read-more {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100%;
+  background-color: #000000;
+  z-index: 4;
+}
+
+.hide {
+  transform: translateX(-100%);
+  transition: transform 0.5s, opacity 0.5s linear;
+}
+
+.show {
+  transform: translateX(0%);
+  transition: transform 0.5s, opacity 0.5s linear;
+}
+
+.read-more-home {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.read-more-home > img {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.read-more-back {
+  position: sticky;
+  margin: -5vh -30px 0;
+  top: 2vh;
+  left: 2vw;
+  display: flex;
+  padding: 1vh;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  width: 3vh;
+  height: 3vh;
+  background-color: #ef3947;
+  border-radius: 6vh;
+  transition: background-color 0.3s;
+  z-index: 5;
+}
+
+.read-more-back:hover {
+  background-color: #b82c38;
+}
+
+.dark-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.68);
+  z-index: 4;
+}
+
+.read-more-home-title {
+  text-align: center;
+  justify-content: center;
+  padding-top: 36vh;
+  color: white;
+  z-index: 6;
+}
+
+.read-more-home-title > div:nth-child(1) {
+  color: #ef3947;
+  font-size: 2.2vh;
+  font-weight: 500;
+}
+.read-more-home-title > div:nth-child(2) {
+  color: white;
+  font-size: 4.2vh;
+  font-weight: 500;
+}
+
+.read-more-home-title > ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5vw;
+  padding-left: 0vh;
+  margin-top: 2vh;
+  font-size: 1.8vh;
+}
+
+.read-more-introduction-text {
+  margin-top: 6vh;
+  width: 40vw;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.read-more-home-title > ul > li:first-child {
+  list-style: none;
+}
+
+.read-more-introduction {
+  width: 100%;
+  height: 50vh;
+  padding-top: 8vh;
+  background-color: #000000;
+}
+.read-more-introduction-title {
+  color: white;
+  font-size: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+  font-weight: 500;
+  margin-top: 4vh;
+}
+
+.read-more-introduction-button {
+  margin-top: 6vh;
+  width: fit-content;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.3vh solid white;
+  padding: 1vh;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.read-more-introduction-button:hover {
+  border-color: #181818;
+}
+
+.read-more-prototype {
+  height: 100vh;
+  width: 90vw;
+  margin: auto auto;
+}
+
+.prototype-title {
+  width: fit-content;
+  text-align: center;
+  margin: 5% auto;
+}
+
+.prototype-title > div:nth-child(1) {
+  color: #b2434c;
+  font-weight: 500;
+  font-size: 2vh;
+}
+.prototype-title > div:nth-child(2) {
+  color: white;
+  font-weight: 500;
+  font-size: 3vh;
+  margin-bottom: 15vh;
+}
