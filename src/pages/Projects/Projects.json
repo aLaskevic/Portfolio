@@ -24,8 +24,8 @@
     }
   },
   {
-    "name": "Speded-Typer",
-    "description": "Speed-Typer is a small mini game as web application written in Angular. In Speed-Typer you have to type as fast as possible the displayed random letters to break the Highscore. This project was there to get first touch with a Javascript frameworks and first usage of cookies to store the score temporary",
+    "name": "Speed-Typer",
+    "description": "Speed Typer is a tiny game to improve the typing speed. The challenge there is to type the displayed letter as fast as possible to beat your highscore. This application is written in Angular and keeps track of the score via cookies.",
     "website": "https://alaskevic.github.io/Speed-Typer/",
     "github": "https://github.com/aLaskevic/Speed-Typer",
     "image": "Speed_typer.png",
