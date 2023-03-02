@@ -4,14 +4,14 @@
   width: 76%;
   margin-top: 15%;
   background-color: #090909;
-  padding: 10vh 6vw 0.1vh 6vw;
+  padding: 8vh 6vw 0.1vh 6vw;
   border-radius: 1vw;
 }
 
 .project-title {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20vh;
+  margin-bottom: 5vh;
   color: white;
 }
 
@@ -62,12 +62,13 @@
 
 .project-right-title > :nth-child(1) {
   font-weight: 600;
+  font-size: 2.5vh;
 }
 
 .project-right-title > :nth-child(2) {
   color: #b2434c;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 2.5vh;
   cursor: pointer;
 }
 
@@ -92,6 +93,7 @@
   padding: 0.8rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  font-size: 2vh;
   transition: color 0.2s, background-color 0.2s;
 }
 
@@ -102,6 +104,7 @@
 .project-right-click > div:nth-child(2) {
   cursor: pointer;
   color: #b2434c;
+  font-size: 2vh;
 }
 
 @media only screen and (max-width: 1388px) {

@@ -11,14 +11,29 @@
       "introduction": "Live Piano is a Web Application that I implemented so Pianists around the world can play togheter. The user is able to create easy a lobby and invite his friends just with a code. I realized this project by implementing a self managing Lobby system with Websockets.",
       "descriptions": [
         {
-          "image": "Livepiano.png",
-          "title": "The Userinterface",
-          "text": ""
+          "image": "/livePiano/lp_home.png",
+          "title": "The Userinterface - Create Session",
+          "text": "The Userinterface had to be simple and intuitive. The user should be have the possibility to instantly create a Lobby without any authentication in forehand. Everything to user has to do to start a session is to enter his name."
         },
         {
-          "image": "Livepiano.png",
-          "title": "CASESTUDY",
-          "text": "Lm und sund soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und soLore Ipsum und so"
+          "image": "/livePiano/lp_join.png",
+          "title": "The Userinterface - Join Session",
+          "text": "The next Dialog is about joining an already existing session. To do that you have simply to enter the Code which is visible inside the Session in the top right corner."
+        },
+        {
+          "image": "/livePiano/lp_app.png",
+          "title": "The Application - Overview",
+          "text": "After an user joined or created a session he/she will see the piano keyboard. On the top left corner we can see a user notification whenever a user joins or leaves the Session. On the top right corner we can see the Session code which we can copy and share with anyone to let him join the lobby. Below that we can see an user overview with the initials of every user."
+        },
+        {
+          "image": "/livePiano/lp_keyboard.png",
+          "title": "The Application - Keyboard",
+          "text": "Then there is also the heart of the application. When the user presses an key, the application sends a message to a Websocketserver. The Websocket Server is maintaining all different sessions and keeps track of which session are in one lobby. After recieving a signal from a client the Server is broadcasting the message (key xy got hit) to every other client within the same lobby."
+        },
+        {
+          "image": "/livePiano/lp_interaction.png",
+          "title": "The Application - Interaction",
+          "text": "To provide a good user experience the user should have the capability to interact with other users. The first button provides the possibility to mute a choosen user. The other button is there so that the Lobby Creator can kick specific users. A future feature in this application will be to integrate a chat system."
         }
       ]
     }

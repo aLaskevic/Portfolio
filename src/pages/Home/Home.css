@@ -59,7 +59,8 @@ nav {
 .nav-mobile-logo {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15vh;
+  padding-top: 13vh;
+  width: 4vh;
 }
 
 nav > img {
@@ -166,6 +167,7 @@ nav > ul > li:hover {
   border-radius: 10vh;
   cursor: pointer;
   transition: background-color 0.1s linear;
+  font-size: 2vh;
 }
 
 .resume:hover {

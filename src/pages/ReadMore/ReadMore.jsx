@@ -9,7 +9,7 @@ export default function ReadMore(props) {
   return (
     <div className={"read-more " + (props.isModalOpen ? "show" : "hide")}>
       <div className="read-more-back" onClick={() => props.close()}>
-        <FontAwesomeIcon icon={faAngleLeft} />
+        <FontAwesomeIcon className="icon-back" icon={faAngleLeft} />
       </div>
       <div className="read-more-home">
         {props.project.readMore ? (
@@ -27,18 +27,6 @@ export default function ReadMore(props) {
               })}
             </ul>
           </div>
-        </div>
-      </div>
-      <div className="read-more-introduction">
-        <div className="read-more-introduction-title">Introduction</div>
-        <div className="read-more-introduction-text">
-          {props.project.readMore?.introduction}
-        </div>
-        <div
-          className="read-more-introduction-button"
-          onClick={() => window.open(props.project.website)}
-        >
-          Visit Application
         </div>
       </div>
       <div className="read-more-prototype">

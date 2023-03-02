@@ -50,6 +50,10 @@
   z-index: 5;
 }
 
+.icon-back {
+  font-size: 2vh;
+}
+
 .read-more-back:hover {
   background-color: #b82c38;
 }
