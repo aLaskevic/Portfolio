@@ -3,6 +3,7 @@ import { useState } from "react";
 import Project from "../../components/Project/Project";
 import data from "./Projects.json";
 import "./Projects.css";
+import { motion } from "framer-motion";
 
 export default function project() {
   return (

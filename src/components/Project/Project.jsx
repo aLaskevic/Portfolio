@@ -2,12 +2,22 @@ import React from "react";
 import "./Project.css";
 import ReadMore from "../../pages/ReadMore/ReadMore";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Project(props) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <div className="project">
+    <motion.div
+      className="project"
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      initial={{ opacity: 0 }}
+      transition={{
+        duration: 0.25,
+        delay: 0.5,
+      }}
+    >
       <ReadMore
         close={() => setIsModalOpen(false)}
         project={props.project}
@@ -56,6 +66,6 @@ export default function Project(props) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

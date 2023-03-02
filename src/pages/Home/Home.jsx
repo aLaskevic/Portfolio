@@ -155,7 +155,7 @@ export default function Home() {
           </div>
           <div className="fourth">
             Full Stack Developer who focuses on writing clean, elegent and
-            efficent Code and also loves to design UI
+            efficent Code and also love designing UI
           </div>
           <div className="resume" onClick={() => window.open(resume)}>
             Resume
