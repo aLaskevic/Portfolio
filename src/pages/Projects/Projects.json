@@ -12,12 +12,12 @@
       "descriptions": [
         {
           "image": "/livePiano/lp_home.png",
-          "title": "The Userinterface - Create Session",
+          "title": "The User interface - Create Session",
           "text": "The Userinterface had to be simple and intuitive. The user should be have the possibility to instantly create a Lobby without any authentication in forehand. Everything to user has to do to start a session is to enter his name."
         },
         {
           "image": "/livePiano/lp_join.png",
-          "title": "The Userinterface - Join Session",
+          "title": "The User interface - Join Session",
           "text": "The next Dialog is about joining an already existing session. To do that you have simply to enter the Code which is visible inside the Session in the top right corner."
         },
         {
