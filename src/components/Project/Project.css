@@ -76,10 +76,15 @@
 }
 
 .project-right-title > :nth-child(2) {
-  color: #ce515b;
-  font-weight: 400;
+  color: #df5a65;
+  font-weight: 300;
   font-size: 2.2vh;
   cursor: pointer;
+  transition: color 0.2s linear;
+}
+
+.project-right-title > :nth-child(2):hover {
+  color: white;
 }
 
 .project-right-text {
@@ -115,14 +120,14 @@
   cursor: pointer;
   color: #ce515b;
   font-size: 2vh;
-  border-bottom: 2px solid transparent;
   padding: 1.4vh;
+  font-weight: 500;
 
-  transition: border-bottom-color 0.3s;
+  transition: color 0.2s linear;
 }
 
 .project-right-click > div:nth-child(2):hover {
-  border-bottom-color: #86333a;
+  color: white;
 }
 
 @media only screen and (max-width: 1388px) {

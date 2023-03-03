@@ -8,7 +8,7 @@
     "technologies": ["HTML", "CSS", "Javascript", "React", "Websocket"],
     "readMore": {
       "backgroundImage": "Livepiano_home.png",
-      "introduction": "Live Piano is a Web Application that I implemented so Pianists around the world can play togheter. The user is able to create easy a lobby and invite his friends just with a code. I realized this project by implementing a self managing Lobby system with Websockets.",
+      "introduction": "Live Piano is a Web Application that I implemented so Pianists around the world can play togheter. The user is capable to create easy a lobby and invite his friends. The goal of this project was it to develope something with Websockets and also write a self managing lobby system.",
       "descriptions": [
         {
           "image": "/livePiano/lp_home.png",
