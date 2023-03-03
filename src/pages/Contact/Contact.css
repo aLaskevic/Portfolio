@@ -14,10 +14,11 @@
 
 .contact-title > :nth-child(1) {
   color: #fa606c;
+  font-size: 2vh;
 }
 .contact-title > div:nth-child(2) {
   color: white;
-  font-size: 1.3rem;
+  font-size: 3vh;
 }
 
 .headline-contact-links {
@@ -26,10 +27,14 @@
   justify-content: center;
   margin-top: 2vh;
   gap: 2rem;
-  width: 20vh;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
+}
+
+.headline-contact-links > img {
+  width: 4vh;
 }
 
 .headline-contact-links > img:hover {
