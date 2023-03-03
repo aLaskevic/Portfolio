@@ -16,10 +16,18 @@
 
 .Skilltags {
   display: flex;
-  gap: 2rem;
+  gap: 10px;
   margin-left: -2.5rem;
   margin-top: 0.4rem;
+  font-size: 2vh;
   color: white;
+}
+
+.Skilltags > li {
+  background-color: #0a0a0a;
+  padding: 1vh;
+  border-radius: 5vh;
+  list-style: none;
 }
 
 .Skilltags > li:first-child {
@@ -28,8 +36,8 @@
 
 .project-content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: start;
   align-content: center;
   flex-wrap: wrap;
   margin-bottom: 15%;
@@ -68,7 +76,7 @@
 }
 
 .project-right-title > :nth-child(2) {
-  color: #b2434c;
+  color: #ce515b;
   font-weight: 400;
   font-size: 2.2vh;
   cursor: pointer;
@@ -105,8 +113,16 @@
 
 .project-right-click > div:nth-child(2) {
   cursor: pointer;
-  color: #b2434c;
+  color: #ce515b;
   font-size: 2vh;
+  border-bottom: 2px solid transparent;
+  padding: 1.4vh;
+
+  transition: border-bottom-color 0.3s;
+}
+
+.project-right-click > div:nth-child(2):hover {
+  border-bottom-color: #86333a;
 }
 
 @media only screen and (max-width: 1388px) {
