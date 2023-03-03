@@ -22,3 +22,21 @@
   color: #b5b5b5;
   word-break: break-all;
 }
+
+.skill-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  margin-top: 8vh;
+}
+
+.skill-section > img {
+  filter: grayscale(100%);
+  width: 7vh;
+  transition: filter 0.3s linear, transform 0.1s linear;
+}
+.skill-section > img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
