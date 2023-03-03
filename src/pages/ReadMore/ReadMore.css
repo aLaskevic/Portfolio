@@ -94,58 +94,16 @@
   font-size: 1.8vh;
 }
 
-.read-more-introduction-text {
-  margin-top: 6vh;
-  width: 40vw;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .read-more-home-title > ul > li:first-child {
   list-style: none;
 }
 
-.read-more-introduction {
-  width: 100%;
-  height: 50vh;
-  padding-top: 8vh;
-  background-color: #000000;
-}
-.read-more-introduction-title {
-  color: white;
-  font-size: 3vh;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10vw;
-  font-weight: 500;
-  margin-top: 4vh;
-}
-
-.read-more-introduction-button {
-  margin-top: 6vh;
-  width: fit-content;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  border: 0.3vh solid white;
-  padding: 1vh;
-  cursor: pointer;
-  transition: border-color 0.2s;
-}
-
-.read-more-introduction-button:hover {
-  border-color: #181818;
-}
-
 .read-more-prototype {
   height: 100vh;
-  width: 90vw;
   margin: auto auto;
 }
 
 .prototype-title {
-  width: fit-content;
   text-align: center;
   margin: 5% auto;
 }
