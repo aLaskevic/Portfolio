@@ -3,7 +3,7 @@
   margin-right: auto;
   width: 76%;
   margin-top: 15%;
-  background-color: #090909;
+
   padding: 8vh 6vw 0.1vh 6vw;
   border-radius: 1vw;
 }
@@ -51,6 +51,9 @@
 
 .project-right {
   flex: 1;
+  background-color: #090909;
+  padding: 3.9vh;
+  border-radius: 2vh;
 }
 
 .project-right-title {

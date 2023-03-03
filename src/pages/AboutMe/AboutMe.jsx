@@ -46,15 +46,40 @@ export default function AboutMe() {
             delay: 0.25,
           }}
         >
-          <img src={iconHtml}></img>
-          <img src={iconCss}></img>
-          <img src={iconJavascript}></img>
-          <img src={iconTypescript}></img>
-          <img src={iconReact}></img>
-          <img src={iconAngular}></img>
-          <img src={iconMongo}></img>
-          <img src={iconNode}></img>
-          <img src={iconMore}></img>
+          <img
+            onClick={() => window.open("https://www.w3.org/html/")}
+            src={iconHtml}
+          ></img>
+          <img
+            onClick={() => window.open("https://www.w3.org/Style/CSS/")}
+            src={iconCss}
+          ></img>
+          <img
+            onClick={() =>
+              window.open("https://www.w3.org/standards/webdesign/script")
+            }
+            src={iconJavascript}
+          ></img>
+          <img
+            onClick={() => window.open("https://www.typescriptlang.org/")}
+            src={iconTypescript}
+          ></img>
+          <img
+            onClick={() => window.open("https://reactjs.org/")}
+            src={iconReact}
+          ></img>
+          <img
+            onClick={() => window.open("https://angular.io/")}
+            src={iconAngular}
+          ></img>
+          <img
+            onClick={() => window.open("https://www.mongodb.com/")}
+            src={iconMongo}
+          ></img>
+          <img
+            onClick={() => window.open("https://nodejs.org/en/")}
+            src={iconNode}
+          ></img>
         </motion.div>
       </div>
     </div>

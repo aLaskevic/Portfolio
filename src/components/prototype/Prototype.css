@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   gap: 8vw;
   margin-bottom: 10vh;
-  background-color: #090909;
   border-radius: 2vh;
   padding: 10vh;
 }
@@ -18,6 +17,10 @@
   color: white;
   flex: 1;
   flex-shrink: 0;
+  background-color: #090909;
+  padding: 4.5vh;
+  width: 80vw;
+  border-radius: 3vh;
 }
 
 .prototype-content > div:nth-child(1) {
@@ -42,5 +45,8 @@
   .prototype-content,
   .prototype-image {
     flex: 100%;
+  }
+  .prototype-content {
+    width: 100%;
   }
 }

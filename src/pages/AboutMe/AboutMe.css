@@ -35,6 +35,7 @@
   filter: grayscale(100%);
   width: 7vh;
   transition: filter 0.3s linear, transform 0.1s linear;
+  cursor: pointer;
 }
 .skill-section > img:hover {
   filter: grayscale(0%);
