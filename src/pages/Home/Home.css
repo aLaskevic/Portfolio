@@ -64,7 +64,7 @@ nav {
 }
 
 nav > img {
-  width: 2.5vw;
+  width: 2vw;
   cursor: pointer;
   transition: filter 0.1s linear;
 }
